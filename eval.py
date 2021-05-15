@@ -1,5 +1,5 @@
 import torch
-from package_testing.modules import utils
+from ufo import utils
 
 def eval():
     print("Evaluation in progress ...")

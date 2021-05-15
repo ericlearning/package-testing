@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import numpy as np
-from package_testing.modules import utils
+from ufo import utils
 
 x = torch.randn(16, 10, 256, 256)
 net = utils.ConvBlk(10, 30)
